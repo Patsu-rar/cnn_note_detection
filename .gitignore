@@ -1,0 +1,5 @@
+# Ignore local artifacts
+cache/
+songs/
+__pycache__/
+**/__pycache__/

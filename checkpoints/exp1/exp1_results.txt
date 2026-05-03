@@ -1,0 +1,233 @@
+############# TRAIN #############
+Epoch  1/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:33<00:00,  5.57it/s, cls=1.0505, oct=0.2053, off=0.4909, on=0.4093]
+Epoch  1/20 | loss: on=0.4076 off=0.4893 oct=0.2023 cls=1.0365 total=2.1358 | lr=1.00e-04 | 153s
+  Onset  → P=0.698 R=0.609 F1=0.650 (TP=80,059 FP=34,675 FN=51,498)
+  Offset → P=0.615 R=0.435 F1=0.509 (TP=57,166 FP=35,717 FN=74,397)
+  Pitch  → Acc=0.802
+  → Saved best (loss=2.1358)
+Epoch  2/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:33<00:00,  5.57it/s, cls=0.8096, oct=0.1491, off=0.4616, on=0.3737]
+Epoch  2/20 | loss: on=0.3735 off=0.4614 oct=0.1487 cls=0.8075 total=1.7912 | lr=1.00e-04 | 153s
+  Onset  → P=0.720 R=0.667 F1=0.693 (TP=87,784 FP=34,146 FN=43,788)
+  Offset → P=0.641 R=0.502 F1=0.563 (TP=66,043 FP=36,993 FN=65,524)
+  Pitch  → Acc=0.843
+  → Saved best (loss=1.7912)
+Epoch  3/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:32<00:00,  5.61it/s, cls=0.7618, oct=0.1386, off=0.4524, on=0.3646]
+Epoch  3/20 | loss: on=0.3648 off=0.4524 oct=0.1383 cls=0.7613 total=1.7168 | lr=1.00e-04 | 152s
+  Onset  → P=0.727 R=0.681 F1=0.703 (TP=89,554 FP=33,695 FN=42,007)
+  Offset → P=0.651 R=0.518 F1=0.577 (TP=68,195 FP=36,553 FN=63,378)
+  Pitch  → Acc=0.850
+  → Saved best (loss=1.7168)
+Epoch  4/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:32<00:00,  5.61it/s, cls=0.7343, oct=0.1323, off=0.4496, on=0.3589]
+Epoch  4/20 | loss: on=0.3590 off=0.4493 oct=0.1321 cls=0.7335 total=1.6739 | lr=1.00e-04 | 152s
+  Onset  → P=0.731 R=0.688 F1=0.709 (TP=90,529 FP=33,392 FN=41,045)
+  Offset → P=0.652 R=0.522 F1=0.580 (TP=68,733 FP=36,612 FN=62,827)
+  Pitch  → Acc=0.855
+  → Saved best (loss=1.6739)
+Epoch  5/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:31<00:00,  5.62it/s, cls=0.7121, oct=0.1287, off=0.4457, on=0.3547]
+Epoch  5/20 | loss: on=0.3546 off=0.4456 oct=0.1284 cls=0.7123 total=1.6409 | lr=1.00e-04 | 152s
+  Onset  → P=0.732 R=0.695 F1=0.713 (TP=91,395 FP=33,449 FN=40,174)
+  Offset → P=0.657 R=0.532 F1=0.588 (TP=69,996 FP=36,535 FN=61,575)
+  Pitch  → Acc=0.858
+  → Saved best (loss=1.6409)
+Epoch  6/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:31<00:00,  5.62it/s, cls=0.6980, oct=0.1244, off=0.4426, on=0.3521]
+Epoch  6/20 | loss: on=0.3517 off=0.4421 oct=0.1240 cls=0.6965 total=1.6144 | lr=1.00e-04 | 152s
+  Onset  → P=0.734 R=0.699 F1=0.716 (TP=92,026 FP=33,336 FN=39,542)
+  Offset → P=0.659 R=0.539 F1=0.593 (TP=70,977 FP=36,777 FN=60,592)
+  Pitch  → Acc=0.861
+  → Saved best (loss=1.6144)
+Epoch  7/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:31<00:00,  5.62it/s, cls=0.6797, oct=0.1206, off=0.4404, on=0.3485]
+Epoch  7/20 | loss: on=0.3484 off=0.4403 oct=0.1206 cls=0.6802 total=1.5896 | lr=1.00e-04 | 152s
+  Onset  → P=0.735 R=0.703 F1=0.719 (TP=92,544 FP=33,295 FN=39,018)
+  Offset → P=0.659 R=0.543 F1=0.596 (TP=71,463 FP=36,972 FN=60,108)
+  Pitch  → Acc=0.864
+  → Saved best (loss=1.5896)
+Epoch  8/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:32<00:00,  5.62it/s, cls=0.6680, oct=0.1171, off=0.4382, on=0.3457]
+Epoch  8/20 | loss: on=0.3456 off=0.4381 oct=0.1171 cls=0.6673 total=1.5681 | lr=1.00e-04 | 152s
+  Onset  → P=0.738 R=0.706 F1=0.722 (TP=92,926 FP=32,932 FN=38,641)
+  Offset → P=0.662 R=0.549 F1=0.600 (TP=72,193 FP=36,920 FN=59,385)
+  Pitch  → Acc=0.866
+  → Saved best (loss=1.5681)
+Epoch  9/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:32<00:00,  5.62it/s, cls=0.6524, oct=0.1135, off=0.4360, on=0.3438]
+Epoch  9/20 | loss: on=0.3438 off=0.4362 oct=0.1137 cls=0.6534 total=1.5471 | lr=1.00e-04 | 152s
+  Onset  → P=0.739 R=0.708 F1=0.723 (TP=93,206 FP=32,896 FN=38,364)
+  Offset → P=0.663 R=0.551 F1=0.602 (TP=72,521 FP=36,814 FN=59,055)
+  Pitch  → Acc=0.869
+  → Saved best (loss=1.5471)
+Epoch 10/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:32<00:00,  5.61it/s, cls=0.6422, oct=0.1117, off=0.4343, on=0.3425]
+Epoch 10/20 | loss: on=0.3428 off=0.4346 oct=0.1121 cls=0.6427 total=1.5322 | lr=1.00e-04 | 152s
+  Onset  → P=0.739 R=0.711 F1=0.725 (TP=93,591 FP=33,027 FN=37,992)
+  Offset → P=0.663 R=0.556 F1=0.605 (TP=73,172 FP=37,124 FN=58,400)
+  Pitch  → Acc=0.870
+  → Saved best (loss=1.5322)
+Epoch 11/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:34<00:00,  5.53it/s, cls=0.6286, oct=0.1094, off=0.4336, on=0.3399]
+Epoch 11/20 | loss: on=0.3398 off=0.4336 oct=0.1091 cls=0.6290 total=1.5115 | lr=1.00e-04 | 154s
+  Onset  → P=0.741 R=0.715 F1=0.728 (TP=94,054 FP=32,829 FN=37,515)
+  Offset → P=0.664 R=0.556 F1=0.605 (TP=73,175 FP=37,009 FN=58,392)
+  Pitch  → Acc=0.873
+  → Saved best (loss=1.5115)
+Epoch 12/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:31<00:00,  5.66it/s, cls=0.6185, oct=0.1060, off=0.4315, on=0.3380]
+Epoch 12/20 | loss: on=0.3380 off=0.4313 oct=0.1063 cls=0.6178 total=1.4934 | lr=1.00e-04 | 151s
+  Onset  → P=0.742 R=0.717 F1=0.729 (TP=94,282 FP=32,752 FN=37,290)
+  Offset → P=0.667 R=0.561 F1=0.609 (TP=73,766 FP=36,909 FN=57,805)
+  Pitch  → Acc=0.874
+  → Saved best (loss=1.4934)
+Epoch 13/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:32<00:00,  5.62it/s, cls=0.6089, oct=0.1042, off=0.4301, on=0.3368]
+Epoch 13/20 | loss: on=0.3366 off=0.4305 oct=0.1041 cls=0.6088 total=1.4800 | lr=1.00e-04 | 152s
+  Onset  → P=0.742 R=0.718 F1=0.730 (TP=94,418 FP=32,746 FN=37,153)
+  Offset → P=0.666 R=0.562 F1=0.609 (TP=73,901 FP=37,121 FN=57,668)
+  Pitch  → Acc=0.876
+  → Saved best (loss=1.4800)
+Epoch 14/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:32<00:00,  5.62it/s, cls=0.5939, oct=0.0998, off=0.4287, on=0.3341]
+Epoch 14/20 | loss: on=0.3340 off=0.4283 oct=0.1001 cls=0.5945 total=1.4569 | lr=1.00e-04 | 152s
+  Onset  → P=0.745 R=0.723 F1=0.734 (TP=95,107 FP=32,630 FN=36,473)
+  Offset → P=0.667 R=0.564 F1=0.612 (TP=74,254 FP=37,038 FN=57,307)
+  Pitch  → Acc=0.879
+  → Saved best (loss=1.4569)
+Epoch 15/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:32<00:00,  5.61it/s, cls=0.5849, oct=0.0971, off=0.4279, on=0.3327]
+Epoch 15/20 | loss: on=0.3327 off=0.4279 oct=0.0974 cls=0.5856 total=1.4436 | lr=1.00e-04 | 152s
+  Onset  → P=0.745 R=0.724 F1=0.734 (TP=95,269 FP=32,650 FN=36,309)
+  Offset → P=0.670 R=0.566 F1=0.613 (TP=74,451 FP=36,683 FN=57,131)
+  Pitch  → Acc=0.881
+  → Saved best (loss=1.4436)
+Epoch 16/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:32<00:00,  5.62it/s, cls=0.5745, oct=0.0958, off=0.4268, on=0.3309]
+Epoch 16/20 | loss: on=0.3311 off=0.4269 oct=0.0958 cls=0.5752 total=1.4291 | lr=1.00e-04 | 152s
+  Onset  → P=0.746 R=0.726 F1=0.736 (TP=95,511 FP=32,464 FN=36,064)
+  Offset → P=0.668 R=0.570 F1=0.615 (TP=75,040 FP=37,268 FN=56,533)
+  Pitch  → Acc=0.883
+  → Saved best (loss=1.4291)
+Epoch 17/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:31<00:00,  5.62it/s, cls=0.5645, oct=0.0927, off=0.4256, on=0.3297]
+Epoch 17/20 | loss: on=0.3297 off=0.4252 oct=0.0927 cls=0.5655 total=1.4130 | lr=1.00e-04 | 152s
+  Onset  → P=0.746 R=0.729 F1=0.737 (TP=95,855 FP=32,629 FN=35,714)
+  Offset → P=0.670 R=0.573 F1=0.618 (TP=75,326 FP=37,022 FN=56,243)
+  Pitch  → Acc=0.885
+  → Saved best (loss=1.4130)
+Epoch 18/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:32<00:00,  5.62it/s, cls=0.5547, oct=0.0904, off=0.4233, on=0.3279]
+Epoch 18/20 | loss: on=0.3284 off=0.4233 oct=0.0909 cls=0.5553 total=1.3978 | lr=1.00e-04 | 152s
+  Onset  → P=0.748 R=0.731 F1=0.739 (TP=96,152 FP=32,434 FN=35,417)
+  Offset → P=0.671 R=0.576 F1=0.620 (TP=75,758 FP=37,148 FN=55,813)
+  Pitch  → Acc=0.887
+  → Saved best (loss=1.3978)
+Epoch 19/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:32<00:00,  5.62it/s, cls=0.5424, oct=0.0875, off=0.4232, on=0.3262]
+Epoch 19/20 | loss: on=0.3262 off=0.4232 oct=0.0875 cls=0.5430 total=1.3798 | lr=1.00e-04 | 152s
+  Onset  → P=0.748 R=0.732 F1=0.740 (TP=96,357 FP=32,410 FN=35,212)
+  Offset → P=0.669 R=0.578 F1=0.621 (TP=76,110 FP=37,573 FN=55,464)
+  Pitch  → Acc=0.890
+  → Saved best (loss=1.3798)
+Epoch 20/20: 100%|██████████████████████████████████████████████████████████████████████████████████| 854/854 [02:33<00:00,  5.55it/s, cls=0.5344, oct=0.0849, off=0.4213, on=0.3259]
+Epoch 20/20 | loss: on=0.3258 off=0.4212 oct=0.0852 cls=0.5355 total=1.3677 | lr=1.00e-04 | 154s
+  Onset  → P=0.748 R=0.736 F1=0.742 (TP=96,865 FP=32,588 FN=34,702)
+  Offset → P=0.673 R=0.580 F1=0.623 (TP=76,317 FP=37,143 FN=55,249)
+  Pitch  → Acc=0.891
+  → Saved best (loss=1.3677)
+
+############# TEST #############
+Computing metrics for 100 songs...
+
+  Song  401 | COnPOff=0.347 COnP=0.560 COn=0.722 | ref=273 est=298
+  Song  402 | COnPOff=0.406 COnP=0.529 COn=0.746 | ref=305 est=360
+  Song  403 | COnPOff=0.433 COnP=0.580 COn=0.816 | ref=327 est=342
+  Song  404 | COnPOff=0.334 COnP=0.456 COn=0.650 | ref=328 est=361
+  Song  405 | COnPOff=0.600 COnP=0.708 COn=0.870 | ref=334 est=333
+  Song  406 | COnPOff=0.503 COnP=0.675 COn=0.779 | ref=277 est=280
+  Song  407 | COnPOff=0.487 COnP=0.595 COn=0.802 | ref=381 est=432
+  Song  408 | COnPOff=0.275 COnP=0.500 COn=0.730 | ref=167 est=189
+  Song  409 | COnPOff=0.542 COnP=0.662 COn=0.750 | ref=389 est=400
+  Song  410 | COnPOff=0.401 COnP=0.547 COn=0.753 | ref=185 est=184
+  Song  411 | COnPOff=0.347 COnP=0.610 COn=0.733 | ref=328 est=324
+  Song  412 | COnPOff=0.499 COnP=0.610 COn=0.793 | ref=467 est=494
+  Song  413 | COnPOff=0.315 COnP=0.566 COn=0.724 | ref=375 est=349
+  Song  414 | COnPOff=0.438 COnP=0.612 COn=0.785 | ref=373 est=353
+  Song  415 | COnPOff=0.486 COnP=0.582 COn=0.790 | ref=302 est=303
+  Song  416 | COnPOff=0.362 COnP=0.489 COn=0.757 | ref=295 est=318
+  Song  417 | COnPOff=0.492 COnP=0.570 COn=0.816 | ref=352 est=371
+  Song  418 | COnPOff=0.420 COnP=0.615 COn=0.728 | ref=167 est=204
+  Song  419 | COnPOff=0.457 COnP=0.696 COn=0.826 | ref=495 est=508
+  Song  420 | COnPOff=0.301 COnP=0.537 COn=0.765 | ref=372 est=391
+  Song  421 | COnPOff=0.322 COnP=0.560 COn=0.717 | ref=358 est=381
+  Song  422 | COnPOff=0.407 COnP=0.533 COn=0.732 | ref=285 est=300
+  Song  423 | COnPOff=0.380 COnP=0.557 COn=0.731 | ref=460 est=413
+  Song  424 | COnPOff=0.487 COnP=0.640 COn=0.835 | ref=211 est=220
+  Song  425 | COnPOff=0.407 COnP=0.579 COn=0.763 | ref=172 est=187
+  Song  426 | COnPOff=0.620 COnP=0.765 COn=0.888 | ref=412 est=430
+  Song  427 | COnPOff=0.420 COnP=0.585 COn=0.781 | ref=390 est=386
+  Song  428 | COnPOff=0.409 COnP=0.667 COn=0.841 | ref=360 est=363
+  Song  429 | COnPOff=0.552 COnP=0.605 COn=0.781 | ref=226 est=227
+  Song  430 | COnPOff=0.463 COnP=0.588 COn=0.741 | ref=244 est=266
+  Song  431 | COnPOff=0.319 COnP=0.497 COn=0.709 | ref=318 est=322
+  Song  432 | COnPOff=0.644 COnP=0.801 COn=0.888 | ref=447 est=454 ########
+  Song  433 | COnPOff=0.496 COnP=0.625 COn=0.779 | ref=272 est=285
+  Song  434 | COnPOff=0.389 COnP=0.552 COn=0.748 | ref=278 est=262
+  Song  435 | COnPOff=0.392 COnP=0.543 COn=0.637 | ref=375 est=284
+  Song  436 | COnPOff=0.214 COnP=0.339 COn=0.417 | ref=265 est=277
+  Song  437 | COnPOff=0.468 COnP=0.579 COn=0.732 | ref=389 est=371
+  Song  438 | COnPOff=0.435 COnP=0.642 COn=0.789 | ref=325 est=314
+  Song  439 | COnPOff=0.347 COnP=0.482 COn=0.703 | ref=180 est=247
+  Song  440 | COnPOff=0.396 COnP=0.553 COn=0.767 | ref=513 est=517
+  Song  441 | COnPOff=0.574 COnP=0.708 COn=0.842 | ref=260 est=277
+  Song  442 | COnPOff=0.386 COnP=0.529 COn=0.815 | ref=296 est=320
+  Song  443 | COnPOff=0.441 COnP=0.547 COn=0.745 | ref=238 est=256
+  Song  444 | COnPOff=0.389 COnP=0.504 COn=0.721 | ref=282 est=278
+  Song  445 | COnPOff=0.381 COnP=0.553 COn=0.763 | ref=272 est=310
+  Song  446 | COnPOff=0.597 COnP=0.750 COn=0.809 | ref=291 est=285
+  Song  447 | COnPOff=0.309 COnP=0.437 COn=0.673 | ref=331 est=296
+  Song  448 | COnPOff=0.356 COnP=0.614 COn=0.715 | ref=274 est=260
+  Song  449 | COnPOff=0.476 COnP=0.592 COn=0.798 | ref=313 est=359
+  Song  450 | COnPOff=0.219 COnP=0.627 COn=0.825 | ref=213 est=243
+  Song  451 | COnPOff=0.537 COnP=0.639 COn=0.828 | ref=225 est=229
+  Song  452 | COnPOff=0.316 COnP=0.513 COn=0.694 | ref=363 est=366
+  Song  453 | COnPOff=0.475 COnP=0.620 COn=0.792 | ref=286 est=295
+  Song  454 | COnPOff=0.407 COnP=0.724 COn=0.816 | ref=361 est=401
+  Song  455 | COnPOff=0.397 COnP=0.508 COn=0.756 | ref=281 est=309
+  Song  456 | COnPOff=0.375 COnP=0.495 COn=0.785 | ref=339 est=397
+  Song  457 | COnPOff=0.651 COnP=0.799 COn=0.873 | ref=243 est=270
+  Song  458 | COnPOff=0.325 COnP=0.487 COn=0.698 | ref=249 est=330
+  Song  459 | COnPOff=0.424 COnP=0.529 COn=0.745 | ref=300 est=328
+  Song  460 | COnPOff=0.389 COnP=0.615 COn=0.793 | ref=465 est=481
+  Song  461 | COnPOff=0.403 COnP=0.521 COn=0.810 | ref=257 est=254
+  Song  462 | COnPOff=0.438 COnP=0.571 COn=0.698 | ref=270 est=360
+  Song  463 | COnPOff=0.407 COnP=0.585 COn=0.672 | ref=198 est=195
+  Song  464 | COnPOff=0.382 COnP=0.495 COn=0.686 | ref=216 est=224
+  Song  465 | COnPOff=0.496 COnP=0.665 COn=0.815 | ref=376 est=358
+  Song  466 | COnPOff=0.594 COnP=0.714 COn=0.851 | ref=378 est=376
+  Song  467 | COnPOff=0.514 COnP=0.628 COn=0.813 | ref=337 est=332
+  Song  468 | COnPOff=0.425 COnP=0.531 COn=0.757 | ref=214 est=238
+  Song  469 | COnPOff=0.392 COnP=0.551 COn=0.739 | ref=405 est=412
+  Song  470 | COnPOff=0.218 COnP=0.405 COn=0.624 | ref=228 est=221
+  Song  471 | COnPOff=0.404 COnP=0.578 COn=0.698 | ref=250 est=200
+  Song  472 | COnPOff=0.308 COnP=0.633 COn=0.820 | ref=291 est=287
+  Song  473 | COnPOff=0.188 COnP=0.378 COn=0.632 | ref=314 est=294
+  Song  474 | COnPOff=0.034 COnP=0.202 COn=0.260 | ref=288 est=297
+  Song  475 | COnPOff=0.396 COnP=0.584 COn=0.770 | ref=400 est=408
+  Song  476 | COnPOff=0.475 COnP=0.724 COn=0.817 | ref=385 est=369
+  Song  477 | COnPOff=0.401 COnP=0.506 COn=0.778 | ref=265 est=288
+  Song  478 | COnPOff=0.376 COnP=0.584 COn=0.706 | ref=282 est=276
+  Song  479 | COnPOff=0.603 COnP=0.720 COn=0.848 | ref=281 est=283
+  Song  480 | COnPOff=0.375 COnP=0.512 COn=0.768 | ref=281 est=274
+  Song  481 | COnPOff=0.471 COnP=0.584 COn=0.821 | ref=363 est=363
+  Song  482 | COnPOff=0.436 COnP=0.595 COn=0.712 | ref=241 est=273
+  Song  483 | COnPOff=0.491 COnP=0.560 COn=0.757 | ref=294 est=353
+  Song  484 | COnPOff=0.538 COnP=0.630 COn=0.826 | ref=293 est=317
+  Song  485 | COnPOff=0.587 COnP=0.733 COn=0.831 | ref=222 est=228
+  Song  486 | COnPOff=0.323 COnP=0.613 COn=0.808 | ref=367 est=383
+  Song  487 | COnPOff=0.244 COnP=0.480 COn=0.713 | ref=357 est=355
+  Song  488 | COnPOff=0.468 COnP=0.611 COn=0.782 | ref=377 est=383
+  Song  489 | COnPOff=0.375 COnP=0.642 COn=0.858 | ref=344 est=344
+  Song  490 | COnPOff=0.323 COnP=0.469 COn=0.725 | ref=408 est=483
+  Song  491 | COnPOff=0.548 COnP=0.681 COn=0.755 | ref=276 est=344
+  Song  492 | COnPOff=0.219 COnP=0.426 COn=0.692 | ref=457 est=473
+  Song  493 | COnPOff=0.389 COnP=0.547 COn=0.728 | ref=335 est=338
+  Song  494 | COnPOff=0.594 COnP=0.731 COn=0.895 | ref=265 est=260
+  Song  495 | COnPOff=0.442 COnP=0.652 COn=0.779 | ref=350 est=374
+  Song  496 | COnPOff=0.455 COnP=0.600 COn=0.767 | ref=352 est=391
+  Song  497 | COnPOff=0.360 COnP=0.554 COn=0.788 | ref=211 est=233
+  Song  498 | COnPOff=0.501 COnP=0.610 COn=0.856 | ref=369 est=365
+  Song  499 | COnPOff=0.467 COnP=0.748 COn=0.865 | ref=250 est=247
+  Song  500 | COnPOff=0.000 COnP=0.000 COn=0.068 | ref=410 est=379
+
+============================================================
+         Precision  Recall  F1-score
+COnPOff  0.4079     0.4240  0.4150
+COnP     0.5678     0.5895  0.5774
+COn      0.7409     0.7702  0.7539
+Total ref notes: 31311, Total est notes: 32422
+Songs evaluated: 100
